@@ -1,0 +1,39 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "typings install",
+    "start": "webpack --watch",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.4",
+    "react-router": "^2.5.2",
+    "history": "^2.0.41",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.6.0",
+    "jquery": "^3.1.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.9.0-dev.20160328",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.4",
+    "react-router": "^2.5.2",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.6.0",
+    "typings": "^2.1.0"
+  }
+}
